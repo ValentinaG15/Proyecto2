@@ -1,0 +1,293 @@
+body{
+  background-color: #02010a;
+  font-family: 'Dancing Script', cursive;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+@media (min-width: 900px) {/*Para Desktop*/
+  header h1{
+    text-align: left;
+    color: white;
+    text-shadow: 19px 19px 19px #02010a;
+  }
+  div {
+      text-align: right;
+      transform: translateX(-20px);
+      transform: translateY(-50px);
+      word-spacing: 15px;
+  }
+  figure img{
+   max-width: 100%;
+   box-shadow: 2px 2px 2px #02010a;
+ }
+ .primera{
+   float: left;
+   width: 960px;
+ }
+ .segunda{
+   float: right;
+   width: 965px;
+ }
+ figcaption a{
+   color:black;
+   text-align: center;
+}
+#paisajes .i1 {/*Confi. de las columnas*/
+   float: left;
+   width: 25%;
+   margin-left: 70px;
+ }
+ #paisajes .i2{
+   float: left;
+   width: 25%;
+ }
+ #paisajes .i3{
+   float: left;
+   width: 25%;
+ }
+ #paisajes .i4{
+   float: left;
+   width: 25%;
+   margin-left: 70px;
+ }
+ #paisajes .i5{
+   float: left;
+   width: 25%;
+ }
+ #paisajes .i6{
+   float: left;
+   width: 25%;
+ }
+ #retratos .i1 {/*Confi. de las columnas*/
+    float: left;
+    width: 20%;
+    margin-left: 161px;
+  }
+  #retratos .i2{
+    float: left;
+    width: 20%;
+  }
+  #retratos .i3{
+    float: left;
+    width: 20%;
+  }
+  #retratos .i4{
+    float: left;
+    width: 20%;
+    margin-left: 161px;
+  }
+  #retratos .i5{
+    float: left;
+    width: 20%
+  }
+  #retratos .i6{
+    float: left;
+    width: 20%;
+  }
+footer .all{
+margin-left: 90px;
+}
+#Columna1{
+  float: left;
+  width: 25%;
+  text-align: left;
+}
+#Columna2{
+  float: left;
+  width: 25%;
+  text-align: left;
+}
+#Columna3{
+  margin-left: 20px;
+  float: left;
+  width: 23%;
+  text-align: left;
+}
+#Columna4{
+  float: right;
+  width: 20%;
+  text-align: left;
+
+}
+
+}
+/*Para Mobiles*/
+@media (min-width:320px) and (max-width:900px) {
+  div {
+      text-align: center;
+      transform: translateX(-20px);
+      transform: translateY(-15px);
+      word-spacing: 15px;
+  }
+  header h1{
+    text-align: center;
+    color: white;
+    text-shadow: 19px 19px 19px #02010a;
+}
+figure img{
+ max-width: 100%;
+ box-shadow: 2px 2px 2px #02010a;
+}
+#Imagenes_Secundarias{ /*Pone una sola columna*/
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+#paisajes{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+#retratos{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+footer .all{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+#Columna1{
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+#Columna2{
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+#Columna3{
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+#Columna4{
+  float: right;
+  width: 100%;
+  text-align: left;
+}
+}
+
+header{
+  padding: 1vh;
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+div a{
+  color: white;
+  font-size: 23px;
+
+}
+.primer{ /*Estilo de los Hipervinchulos*/
+  text-decoration: none;
+}
+.segundo{
+  text-decoration: none;
+}
+.tercer{
+  text-decoration: none;
+}
+figcaption{
+  text-align: center;
+}
+#Imagen_Central{
+  padding: 2vh 2vh;
+  margin-top: auto;
+  background-color: #82c3a6;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: (2px 2px 2px #02010a);
+}
+#Imagenes_Secundarias{
+  display: flex;
+  padding: 2vh 2vh;
+  margin-top: auto;
+  background-color: #d5c75f;
+  border: 1px solid black;
+  margin-right: auto;
+  margin-left: auto;
+}
+figcaption a{
+  color: black;
+  text-align: center;
+}
+.primera :hover{
+  transform: rotate(10deg);
+  border: 2px solid black;
+  -webkit-filter:drop-shadow(2px 2px 2px #82c3a6);
+  filter: drop-shadow(2px 2px 2px #82c3a6);
+}
+.segunda :hover{
+  transform: translate(20px, 5px);
+  border: 2px solid black;
+  -webkit-filter:drop-shadow(2px 2px 2px #82c3a6);
+  filter: drop-shadow(2px 2px 2px #82c3a6);
+}
+#paisajes{
+  display: inline-block; /*Hace las Columnas*/
+  padding: 2vh 2vh;
+  margin-top: auto;
+  background-color: #d5c75f;
+  margin-right: auto;
+  margin-left: auto;
+}
+#paisajes .i1{
+  filter: blur(10px);
+}
+#paisajes .i2{
+  filter: grayscale(100%);
+}
+#paisajes .i3{
+  filter: sepia(90%);
+}
+#paisajes .i4{
+  filter: grayscale(100%);
+}
+#paisajes .i6{
+  filter: grayscale(100%);
+}
+#retratos{
+  display: inline-block; /*Hace las Columnas*/
+  padding: 2vh 2vh;
+  margin-top: auto;
+  background-color: #d5c75f;
+  margin-right: auto;
+  margin-left: auto;
+}
+#retratos .i1{
+  filter: blur(10px);
+}
+#retratos .i2{
+  filter: grayscale(100%);
+}
+#retratos .i3{
+  filter: sepia(90%);
+}
+#retratos .i4{
+  filter: grayscale(100%);
+}
+#retratos .i6{
+  filter: grayscale(100%);
+}
+footer{
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 18px;
+  padding: 15vh 0 0 3vw;
+  margin-top: -60px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+}
+p img{
+ width: 20px;
+}
